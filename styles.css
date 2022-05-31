@@ -1,5 +1,27 @@
 .container {
+  text-align: center;
+  background-color: #d6c7d6;
   display: flex;
   flex-direction: column;
   width: 50vw;
+  padding: 25px 50px 50px 100px;
+}
+
+body {
+  background-color: #263131;
+  text-align: -webkit-center;
+  padding-top: 10%;
+}
+#bill-amount {
+  text: bold;
+}
+
+.cls-container {
+  padding-bottom: 5%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
 }
